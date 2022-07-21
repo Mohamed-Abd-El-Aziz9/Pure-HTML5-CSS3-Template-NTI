@@ -1,0 +1,316 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main {
+    height: 100vh;
+    background-color: tomato;
+    background-image: url("Images/header-bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+}
+
+.logo {
+    padding: 20px;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+
+.layer {
+    background-color: rgba(0, 0, 0, .7);
+    height: 100%;
+    display: flex;
+}
+
+ul {
+    display: flex;
+    margin-right: 100px;
+}
+
+ul li {
+    color: white;
+    list-style: none;
+    padding: 10px 20px;
+    font-size: 13px;
+}
+
+
+.content {
+    color: white;
+    align-items: center;
+    margin-left: 70px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.content .main-content,
+.content .form {
+    width: 45%;
+}
+
+.content h1 {
+    font-size: 50px;
+}
+
+button {
+    padding: 20px 50px;
+    background-color: #F9B700;
+    border: none;
+    color: wheat;
+    font-weight: bold;
+}
+
+form {
+    width: 500px;
+    background-color: rgba(5, 5, 59, 0.4);
+    outline: .5px solid white;
+    padding: 45px 10px;
+}
+
+#car,
+form input {
+    padding: 12px;
+    width: 350px;
+    border-radius: 3px;
+    border: none;
+}
+
+form h2 {
+    padding: 0px;
+    margin-left: 50px;
+}
+
+form input {
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+form ::placeholder {
+    font-size: 13px;
+    color: gray;
+}
+
+#pickup,
+#time {
+    width: 134px;
+}
+
+#formbtn {
+    width: 375px;
+    padding: 15px;
+    margin-left: 50px;
+    margin-top: 15px;
+    border-radius: 7px;
+}
+
+/* ----------------about section------------ */
+.about,
+.cars {
+    margin-bottom: 75px;
+    padding: 20px 100px;
+
+}
+
+.about-content {
+    text-align: center;
+}
+
+.about-content h1 {
+    font-size: 40px;
+}
+
+.about-content p {
+    color: gray;
+}
+
+.icon-sec {
+    display: flex;
+    align-items: center;
+}
+
+.icon-sec h3 {
+    margin-left: 15px;
+}
+
+.about-sections {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about-sections .sec {
+    width: 25%;
+    background-color: #EDEDF7;
+    padding: 30px 30px;
+    border-radius: 15px;
+    margin-top: 25px;
+}
+
+.about-sections p {
+    color: gray;
+    margin-left: 3px;
+}
+
+/* ----------------Cars section------------ */
+.car-content .container {
+    display: flex;
+}
+
+.car-content .cont1 {
+    width: 50%;
+    margin-right: 10px;
+}
+
+.car-content .cont2 img {
+    width: 100%;
+}
+
+.car-content .label {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.car-content .label p {
+    font-size: 40px;
+    font-weight: bold;
+    color: #F9B700;
+}
+
+.car-content sub {
+    font-size: 17px;
+}
+
+.car-content .data p {
+    color: gray;
+    margin-top: -10px;
+}
+
+.carsoul {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.carsoul div {
+    padding: 3px;
+    background-color: gray;
+    width: 3px;
+    height: 3px;
+    margin: 5px;
+}
+
+.carsoul div:first-child {
+    background-color: #F9B700;
+}
+
+/* ----------------Cars section------------ */
+.banner {
+    height: 400px;
+    background-image: url("Images/callaction-bg.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner-data {
+    color: white;
+    width: 70%;
+
+}
+
+.layer-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(5, 5, 59, 0.7);
+}
+
+.banner-btn {
+    background-color: transparent;
+    border: 1px solid #F9B700;
+    color: #F9B700;
+    margin-top: 20px;
+}
+
+/* ----------------service section------------ */
+.four-sec {
+    display: flex;
+}
+
+.four-sec .sect {
+    width: 25%;
+    padding: 10px;
+}
+
+.four-sec .sect .date {
+    background-color: black;
+    color: gray;
+    width: fit-content;
+    padding: 5px;
+}
+
+.four-sec .sect p {
+    color: gray;
+}
+
+.data-flex {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+
+}
+
+.footer {
+    height: fit-content;
+    background-color: #04091D;
+    padding-bottom: 30px;
+}
+
+.footer {
+    color: white;
+}
+
+.footer-data {
+    display: flex;
+}
+
+.footer .footer-sec {
+    margin-top: 70px;
+    width: 18%;
+}
+
+.footer .header {
+    font-weight: bold;
+    color: white;
+}
+
+.footer p {
+    color: gray;
+}
+
+.final-input {
+    padding: 10px 20px;
+    width: 200px;
+}
+.final-input::after {
+ 
+}
+
+.copy {
+    text-align: center;
+    color: gray;
+}
